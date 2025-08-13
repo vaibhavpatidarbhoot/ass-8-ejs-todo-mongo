@@ -1,66 +1,53 @@
-# Assignment 7 – EJS Todo App ✅
+# 📋 Assignment 8 - EJS Todo List with MongoDB
 
-A dynamic and responsive Todo List web application built using **Node.js**, **Express**, and **EJS**. This project allows users to add, edit, delete, and filter tasks based on priority. Tasks are managed using an in-memory array as a database substitute. The UI is styled using custom CSS.
+A dynamic Todo List web application built using **Node.js**, **Express**, **EJS**, and **MongoDB**.  
+This project allows users to add, edit, delete, and mark tasks as complete, with data stored in a MongoDB database.
+
+---
+
+## 🚀 Live Demo
+[**Click here to view the deployed app**](https://ass-8-ejs-todo-mongo.onrender.com/)
 
 ---
 
-## 📌 Features
-
-- Add new tasks with title and priority
-- Edit existing tasks
-- Delete tasks
-- Filter tasks by priority (High, Medium, Low)
-- Clean and responsive user interface
-- EJS-based templating
-
----
 
 ## 📁 Folder Structure
 
 <pre> 
+ass-8-ejs-todo-mongodb/
+│
 ├── public/
 │ └── css/
-│ └── style.css # All custom styles
+│ └── style.css
+│
 ├── views/
-│ └── list.ejs # Main EJS template
-├── app.js # Main server file
-├── package.json # Project metadata
-├── package-lock.json # Dependency lock
-└── README.md # Project documentation
+│ └── index.ejs
+│
+├── index.js
+├── package.json
+├── README.md
  </pre>
 
----
-
-## 🚀 Deploy Link
-
-🔗 [https://ass-7-ejs-todo.onrender.com/](https://ass-7-ejs-todo.onrender.com/)
 
 ---
 
-## 📦 Submission Link (GitHub Repo)
-
-🔗 [https://github.com/vaibhavpatidarbhoot/ass-7-ejs-todo](https://github.com/vaibhavpatidarbhoot/ass-7-ejs-todo)
-
----
-
-## 💻 Tech Stack
-
-- Node.js
-- Express.js
-- EJS
-- HTML/CSS
+## ✨ Features
+- Add new tasks
+- Edit existing tasks
+- Delete tasks
+- Mark tasks as completed
+- Data stored persistently in MongoDB
+- Responsive and clean UI using CSS
 
 ---
 
-## 🧪 How to Run Locally
+## 🛠️ Technologies Used
+- **Node.js**
+- **Express.js**
+- **EJS** (Embedded JavaScript Templates)
+- **MongoDB** (Atlas Cloud Database)
+- **Mongoose** (ODM for MongoDB)
+- **CSS**
 
-```bash
-# Clone the repository
-git clone https://github.com/vaibhavpatidarbhoot/ass-7-ejs-todo.git
-cd ass-7-ejs-todo
+---
 
-# Install dependencies
-npm install
-
-# Start the server
-node app.js
