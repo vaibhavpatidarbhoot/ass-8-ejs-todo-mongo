@@ -34,12 +34,12 @@
             <% tasks.forEach(task => { %>
                 <li class="<%= task.done ? 'done' : '' %>">
                     <form action="/toggle" method="POST" class="inline-form">
-                        <input type="hidden" name="id" value="<%= task.id %>">
+                        <input type="hidden" name="id" value="<%= task._id %>">
                         <button type="submit"><%= task.done ? '✅' : '⬜' %></button>
                     </form>
                     <span><%= task.title %> - <small>[<%= task.priority %>]</small></span>
                     <form action="/delete" method="POST" class="inline-form">
-                        <input type="hidden" name="id" value="<%= task.id %>">
+                        <input type="hidden" name="id" value="<%= task._id %>">
                         <button type="submit" class="delete">❌</button>
                     </form>
                 </li>
