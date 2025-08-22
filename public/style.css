@@ -251,6 +251,11 @@ input[type="submit"]:hover {
     font-size: 14px;
     padding: 8px 4px;
   }
+.todo-item:hover {
+  background: #fff3cd;
+}
+
+  
   .edit-btn, .delete-btn {
     font-size: 14px;
     padding: 8px 0;
