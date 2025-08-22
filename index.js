@@ -10,7 +10,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Connect to MongoDB
-mongoose.connect(process.env.MONGODB_URI);
+mongoose.connect(process.env.MONGODB_URI)
+  .then(() => console.log("✅ MongoDB connected"))
+  .catch(err => console.error("❌ DB connection error:", err));
+
 
 // Define Todo schema and model
 const todoSchema = new mongoose.Schema({
