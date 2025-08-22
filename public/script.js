@@ -40,8 +40,11 @@ document.querySelectorAll('.delete-btn').forEach(function(btn) {
   btn.addEventListener('click', function() {
     var todoItem = btn.closest('.todo-item');
     if (confirm('Delete this todo?')) {
-      fetch('/delete/' + todoItem.dataset.id, { method: 'DELETE' })
-        .then(() => location.reload());
+     fetch('/delete/' + todoItem.dataset.id, { method: 'DELETE' })
+  .then(res => {
+    if (res.ok) {
+      todoItem.remove(); // Remove without full reload
+    
     }
   });
 });
