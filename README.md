@@ -1,7 +1,7 @@
 # Tutedude Todo App (MongoDB)
 
 A simple and modern Todo List web application built with **Node.js**, **Express**, **MongoDB (Atlas)**, and **EJS**.  
-[Live Demo](https://tutedude-todo-mongodb.onrender.com/)
+[Live Demo](https://ass-8-todo-ejs-mongo.onrender.com/)
 
 ---
 
@@ -17,7 +17,7 @@ A simple and modern Todo List web application built with **Node.js**, **Express*
 
 ## Demo
 
-[https://tutedude-todo-mongodb.onrender.com/](https://tutedude-todo-mongodb.onrender.com/)
+[https://ass-8-todo-ejs-mongo.onrender.com/](https://ass-8-todo-ejs-mongo.onrender.com/)
 
 ---
 
@@ -40,8 +40,8 @@ A simple and modern Todo List web application built with **Node.js**, **Express*
 
 1. **Clone the repository:**
    ```
-   git clone https://github.com/akurathikamal/TUTEDUDE_TODO_MONGODB.git
-   cd TUTEDUDE_TODO_MONGODB
+   git clone https://github.com/vaibhavpatidarbhoot/ass-8-todo-ejs-mongo.git
+   cd ass-8-todo-ejs-mongo
    ```
 
 2. **Install dependencies:**
@@ -78,7 +78,7 @@ A simple and modern Todo List web application built with **Node.js**, **Express*
 
 ## Author
 
-- [Akurathi Kamal](https://github.com/akurathikamal)
+- [Vaibhav Patidar Bhoot](https://github.com/vaibhavpatidarbhoot)
 
 ---
 
